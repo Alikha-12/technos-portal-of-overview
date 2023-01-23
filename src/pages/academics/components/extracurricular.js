@@ -1,9 +1,20 @@
 import React from "react";
 import { FaLaptopCode } from "react-icons/fa";
+import { TbKarate } from "react-icons/tb";
+import { FaVolleyballBall } from "react-icons/fa";
+import { GiMusicalNotes } from "react-icons/gi";
+import { IoMdJournal } from "react-icons/io";
+import { MdCameraRoll } from "react-icons/md";
+import { BsFillFlagFill } from "react-icons/bs";
+import { VscBroadcast } from "react-icons/vsc";
+import { GiMaterialsScience } from "react-icons/gi";
+import { ImNewspaper } from "react-icons/im";
+import { RiBasketballFill } from "react-icons/ri";
+import { FaFutbol } from "react-icons/fa";
 
 function Extracurriculars() {
   return (
-    <section className="bg-[#658864]">
+    <section className="bg-[#0e82bd]">
       <div className="container px-6 py-10 mx-auto md:content-center">
         <h1 className="text-3xl font-semibold text-center font-Bebas tracking-[0.25rem] text-white capitalize lg:text-4xl ">
           Extracurriculars
@@ -11,11 +22,76 @@ function Extracurriculars() {
         <div className=" flex-row grid-cols-1 inline-grid">
           <div className="grid  gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
             <Extracurricular
-              name="History"
+              name="IT"
               description={
-                "I'm a big history nerd, history always never failed to impress me, my favorite person is Otto von Bismarck and favorite nation is the Austro-Hungarian Empire"
+                "Students pursue their passion in Technology with creativity"
               }
-              children={<FaLaptopCode className=" text-[#658864] w-40 h-40" />}
+              children={<FaLaptopCode className=" text-[#0e82bd] w-40 h-40" />}
+            />
+            <Extracurricular
+              name="Volley"
+              description={"Students build teamwork skill while playing volley"}
+              children={
+                <FaVolleyballBall className=" text-[#0e82bd] w-40 h-40" />
+              }
+            />
+            <Extracurricular
+              name="Rebana"
+              description={"Students build teamwork skill while playing volley"}
+              children={
+                <GiMusicalNotes className=" text-[#0e82bd] w-40 h-40" />
+              }
+            />
+            <Extracurricular
+              name="Journalistic"
+              description={"Students build teamwork skill while playing volley"}
+              children={<IoMdJournal className=" text-[#0e82bd] w-40 h-40" />}
+            />
+            <Extracurricular
+              name="Theatre"
+              description={"Students build teamwork skill while playing volley"}
+              children={<MdCameraRoll className=" text-[#0e82bd] w-40 h-40" />}
+            />
+            <Extracurricular
+              name="PABRASMADA"
+              description={"Students build teamwork skill while playing volley"}
+              children={
+                <BsFillFlagFill className=" text-[#0e82bd] w-40 h-40" />
+              }
+            />
+            <Extracurricular
+              name="Broadcasting"
+              description={"Students build teamwork skill while playing volley"}
+              children={<VscBroadcast className=" text-[#0e82bd] w-40 h-40" />}
+            />
+            <Extracurricular
+              name="MIPA"
+              description={"Students build teamwork skill while playing volley"}
+              children={
+                <GiMaterialsScience className=" text-[#0e82bd] w-40 h-40" />
+              }
+            />
+            <Extracurricular
+              name="KTI"
+              description={"Students build teamwork skill while playing volley"}
+              children={<ImNewspaper className=" text-[#0e82bd] w-40 h-40" />}
+            />
+            <Extracurricular
+              name="Basket"
+              description={"Students build teamwork skill while playing volley"}
+              children={
+                <RiBasketballFill className=" text-[#0e82bd] w-40 h-40" />
+              }
+            />
+            <Extracurricular
+              name="Karate"
+              description={"Students build teamwork skill while playing volley"}
+              children={<TbKarate className=" text-[#0e82bd] w-40 h-40" />}
+            />
+            <Extracurricular
+              name="Futsal"
+              description={"Students build teamwork skill while playing volley"}
+              children={<FaFutbol className=" text-[#0e82bd] w-40 h-40" />}
             />
           </div>
         </div>
@@ -30,8 +106,8 @@ const Extracurricular = ({ name, description, children }) => {
       <span className="inline-block p-3 text-blue-500 rounded-full ">
         {children}
       </span>
-      <h1 className="text-2xl font-semibold pt-7 text-[#B7B78A]">{name}</h1>
-      <p className="text-[#B7B78A] text-center">{description}</p>
+      <h1 className="text-2xl font-semibold pt-7 text-[#0e82bd]">{name}</h1>
+      <p className="text-[#0e82bd] text-center">{description}</p>
       <a
         href="#"
         className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"

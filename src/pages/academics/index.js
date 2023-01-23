@@ -1,9 +1,16 @@
-import Extracurricular from "./components/extracurricular";
+import Extracurriculars from "./components/extracurricular";
 import { BiAccessibility } from "react-icons/bi";
 import { FcCustomerSupport } from "react-icons/fc";
-import Extracurriculars from "./components/extracurricular";
+import Hero from "./components/Hero";
+import HeroSecond from "./components/HeroSecond";
 
 function AcademicsPage() {
-  return <Extracurriculars />;
+  return (
+    <div>
+      <Hero />
+      <HeroSecond />
+      <Extracurriculars />
+    </div>
+  );
 }
 export default AcademicsPage;
