@@ -6,7 +6,7 @@ function Benefits() {
   return (
     <section className="bg-[#0e82bd]">
       <div className="container px-6 py-10 mx-auto md:content-center">
-        <h1 className="text-3xl font-semibold text-center font-Bebas tracking-[0.25rem] text-gray-800 capitalize lg:text-4xl dark:text-white">
+        <h1 className="text-3xl font-semibold text-center font-Bebas tracking-[0.25rem] capitalize lg:text-4xl text-white">
           Benefits
         </h1>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">

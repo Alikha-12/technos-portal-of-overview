@@ -73,7 +73,7 @@ function NavbarTest() {
             </a>
             <a
               className="my-2 text-[#0e82bd] transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
+              href="/blog"
             >
               BLOG
             </a>
@@ -86,7 +86,7 @@ function NavbarTest() {
           </div>
           <div className="flex justify-center md:block">
             <a
-              className="relative text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-300"
+              className="relative  transition-colors duration-300 transform text-gray-200 hover:text-gray-300"
               href="#"
             >
               <button

@@ -5,7 +5,7 @@ function Footer() {
         <div className="text-center">
           <a
             href="#"
-            className="text-2xl font-bold text-gray-800 font-bebas tracking-wider dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+            className="text-2xl font-bold  font-bebas tracking-wider text-white hover:text-gray-700 dark:hover:text-gray-300"
           >
             TECHNO
           </a>

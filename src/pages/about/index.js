@@ -1,7 +1,9 @@
+import Hero from "./components/Hero";
+
 function AboutPage() {
   return (
     <div>
-      <p className=" text-6xl font-bold">dsdasadlsjj</p>
+      <Hero />
     </div>
   );
 }

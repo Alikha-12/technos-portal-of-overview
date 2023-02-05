@@ -37,36 +37,36 @@ function Extracurriculars() {
             />
             <Extracurricular
               name="Rebana"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students play traditional instrument"}
               children={
                 <GiMusicalNotes className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="Journalistic"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students write like journalist"}
               children={<IoMdJournal className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Theatre"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students plays a drama"}
               children={<MdCameraRoll className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="PABRASMADA"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students learns to march"}
               children={
                 <BsFillFlagFill className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="Broadcasting"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students will pre-record for Suara Muslim radio"}
               children={<VscBroadcast className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="MIPA"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students will learn Math & Science"}
               children={
                 <GiMaterialsScience className=" text-[#0e82bd] w-40 h-40" />
               }
