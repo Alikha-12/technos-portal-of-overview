@@ -61,7 +61,7 @@ function NavbarTest() {
           <div className="flex flex-col md:flex-row md:mx-6 font-Bebas tracking-wide font-medium text-xl">
             <a
               className="my-2 text-[#0e82bd] transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
+              href="/contact"
             >
               CONTACT US
             </a>
@@ -87,11 +87,11 @@ function NavbarTest() {
           <div className="flex justify-center md:block">
             <a
               className="relative  transition-colors duration-300 transform text-gray-200 hover:text-gray-300"
-              href="#"
+              href="/enroll"
             >
               <button
                 className="bg-[#0e82bd] hover:bg-[#60a5fa] font-Bebas tracking-wide text-whites font-medium py-1 px-3 rounded right-0 hover:scale-110 hover:shadow-lg transition-all duration-300"
-                href=""
+                href="/enroll"
               >
                 ENROLL NOW
               </button>

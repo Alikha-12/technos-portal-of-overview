@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import AboutPage from "./pages/about";
 import AcademicsPage from "./pages/academics";
 import BlogPage from "./pages/Blog";
+import ContactPage from "./pages/Contact/Index";
+import Footer from "./components/Footer";
+import EnrollPage from "./pages/Enroll/Index";
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/academics" element={<AcademicsPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/enroll" element={<EnrollPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

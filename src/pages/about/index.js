@@ -1,14 +1,15 @@
 import Below from "./components/Below";
-import Belower from "./components/Belower";
 import Hero from "./components/Hero";
 import More from "./components/More";
+import Unexpected from "./components/Unexpected";
 
 function AboutPage() {
   return (
     <div>
       <Hero />
       <Below />
-      <Belower />
+      <Unexpected />
+      {/* <Belower /> */}
     </div>
   );
 }

@@ -6,7 +6,7 @@ import WellRounded from "./images/undraw_mathematics.svg";
 function WhyUs() {
   return (
     <section className="bg-white">
-      <div className="container px-6 py-10 mx-auto mb-24">
+      <div className="container px-6 pt-10 mx-auto pb-20">
         <h1 className="text-3xl font-semibold text-[#0e82bd] lg:text-4xl md:text-5xl">
           Why us?
         </h1>

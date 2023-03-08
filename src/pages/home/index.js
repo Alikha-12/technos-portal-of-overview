@@ -9,7 +9,6 @@ function Home() {
       <Hero />
       <Benefits />
       <WhyUs />
-      <Footer />
     </div>
   );
 }

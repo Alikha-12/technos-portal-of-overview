@@ -7,7 +7,7 @@ function Footer() {
             href="#"
             className="text-2xl font-bold  font-bebas tracking-wider text-white hover:text-gray-700 dark:hover:text-gray-300"
           >
-            TECHNO
+            SMP Techno Insan Kamil Tuban
           </a>
           <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
             <button className="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform border rounded-md sm:mx-2 sm:mt-0 sm:w-auto hover:bg-white focus:outline-none focus:ring dark:hover:bg-gray-800 focus:ring-gray-300 focus:ring-opacity-40">
@@ -26,7 +26,10 @@ function Footer() {
                 Watch profile
               </span>
             </button>
-            <button className="w-full px-5 py-2 text-sm tracking-wide text-[#0e82bd] capitalize transition-colors duration-300 transform bg-[#fdfdfd] rounded-md sm:mx-2 sm:order-2 sm:w-auto hover:scale-110 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <button
+              className="w-full px-5 py-2 text-sm tracking-wide text-[#0e82bd] capitalize transition-colors duration-300 transform bg-[#fdfdfd] rounded-md sm:mx-2 sm:order-2 sm:w-auto hover:scale-110 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+              href="/enroll"
+            >
               Enroll now
             </button>
           </div>
