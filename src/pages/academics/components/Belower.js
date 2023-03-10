@@ -1,4 +1,7 @@
 import Organization from "./Organization";
+import EC from "./image/ECA.png";
+import Scout from "./image/scouting.jpeg";
+import Flag from "./image/flag.jpeg";
 
 function Belower() {
   return (
@@ -7,53 +10,43 @@ function Belower() {
         <div className="container mx-auto space-y-12">
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row bg-gray-50">
             <img
-              src="https://source.unsplash.com/640x480/?1"
+              src={Flag}
               alt=""
-              className="h-80 aspect-video rounded-md"
+              className="h-80 aspect-video rounded-md object-cover"
             />
             <div className="flex flex-col justify-center flex-1 p-6">
               <span className="text-xs uppercase "></span>
               <h3 className="text-3xl font-bold">Techno Guard District</h3>
               <p className="my-6 ">
-                OSIS SMP Techno Islam Insan Kamil Tuban. Bertugas mempersiapkan
-                dan mengatur acara - acara sekolah
+                Duties on planning an event and parcitipating on school activity
               </p>
-              <button type="button" className="self-start">
-                Action
-              </button>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse bg-gray-50">
             <img
-              src="https://source.unsplash.com/640x480/?2"
+              src={Scout}
               alt=""
-              className="h-80 bg-[#0e82bd] aspect-video rounded-md"
+              className="h-80 bg-[#0e82bd] aspect-video rounded-md object-cover"
             />
             <div className="flex flex-col justify-center flex-1 p-6 ">
               <h3 className="text-3xl font-bold">PASGAKA</h3>
               <p className="my-6 ">
-                Bertugas dalam kegiatan pembelajaran Pramuka
+                Duties on planning and commanding in scouting activity
               </p>
-              <button type="button" className="self-start">
-                Action
-              </button>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row bg-gray-50">
             <img
-              src="https://source.unsplash.com/640x480/?1"
+              src={EC}
               alt=""
-              className="h-80 aspect-video rounded-md"
+              className="h-80 aspect-video rounded-md object-cover"
             />
             <div className="flex flex-col justify-center flex-1 p-6">
               <span className="text-xs uppercase "></span>
               <h3 className="text-3xl font-bold">English Conversation</h3>
               <p className="my-6 ">
-                Program tutor sebaya dalam program pembelajaran Bahasa Inggris
+                Peer mentoring program to teach and learn English trough games
               </p>
-              <button type="button" className="self-start">
-                Action
-              </button>
             </div>
           </div>
         </div>

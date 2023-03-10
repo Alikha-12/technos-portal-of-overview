@@ -8,6 +8,7 @@ import BlogPage from "./pages/Blog";
 import ContactPage from "./pages/Contact/Index";
 import Footer from "./components/Footer";
 import EnrollPage from "./pages/Enroll/Index";
+import PageNotFound from "./pages/Error/Index";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/enroll" element={<EnrollPage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

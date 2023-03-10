@@ -1,11 +1,11 @@
-import Grid from "./images/blue_grid.png";
+import Grid from "./images/smallest.png";
 import vision from "./images/vision.png";
 function Below() {
   return (
     <div
       className="text-center tracking-wider font-medium text-white text-6xl bg-scroll bg-center bg-[length:200px_100px]"
       style={{
-        backgroundImage: `url(${vision})`,
+        backgroundImage: `url(${Grid})`,
       }}
     >
       <h1 className=" text-center align-middle p-10">

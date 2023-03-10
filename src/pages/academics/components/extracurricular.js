@@ -49,7 +49,7 @@ function Extracurriculars() {
             />
             <Extracurricular
               name="Theatre"
-              description={"Students plays a drama"}
+              description={"Students plays a drama together"}
               children={<MdCameraRoll className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
@@ -73,24 +73,26 @@ function Extracurriculars() {
             />
             <Extracurricular
               name="KTI"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students will write a research"}
               children={<ImNewspaper className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Basket"
-              description={"Students build teamwork skill while playing volley"}
+              description={"Students build teamwork skill while playing basket"}
               children={
                 <RiBasketballFill className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="Karate"
-              description={"Students build teamwork skill while playing volley"}
+              description={
+                "Students will learn and build their stamina while learning the art of self defense"
+              }
               children={<TbKarate className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Futsal"
-              description={"Students build teamwork skill while playing volley"}
+              description={"A team of students will play football indoor"}
               children={<FaFutbol className=" text-[#0e82bd] w-40 h-40" />}
             />
           </div>
