@@ -2,6 +2,7 @@ import fest3 from "./image/fest3.jpg";
 import met from "./image/Met.jpeg";
 import trash from "./image/EhhTrash.jpeg";
 import them from "./image/sheesh.jpeg";
+import NewsToo from "./News2";
 
 function News() {
   return (
