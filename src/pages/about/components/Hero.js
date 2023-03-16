@@ -3,7 +3,7 @@ import frontview from "./images/frontview.jpeg";
 function Hero() {
   return (
     <div
-      className=" bg-cover text-center font-Bebas pt-64 tracking-wider font-medium text-whitez text-6xl bg-local bg-center"
+      className=" bg-cover text-center font-Bebas pt-64 tracking-wider font-medium text-whitez text-6xl bg-scroll bg-center"
       style={{
         backgroundImage: `url(${frontview})`,
       }}
