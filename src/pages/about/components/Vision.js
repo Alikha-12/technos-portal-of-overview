@@ -11,41 +11,86 @@ function Vision() {
       />
       <header>
         <div className="relative flex">
-          <div className="min-h-screen w-full bg-[#001845] pattern">
+          <div className="h-72 w-full bg-[#001845] pattern">
             {" "}
-            <div className=" w-auto pt-10 pl-10">
+            <div className=" w-auto pt-16 pl-10 flex flex-row items-center align-middle">
               <>
-                {/*
-  This component uses @tailwindcss/line-clamp
-
-  yarn add @tailwindcss/line-clamp
-  npm install @tailwindcss/line-clamp
-
-  plugins: [require('@tailwindcss/line-clamp')]
-
-  The `animate-background` class can be found here - https://github.com/markmead/hyperui/blob/main/tailwind.preset.js
-*/}
-                <article className="animate-background rounded-xl w-64 bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm">
-                  <div className="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
-                    <time
-                      dateTime="2022-10-10"
-                      className="block text-xs text-gray-500"
-                    >
-                      10th Oct 2022
-                    </time>
+                <article className="animate-background  rounded-xl bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
+                  <div
+                    className="rounded-[10px] bg-white hover:bg-slate-100
+                   text-center sm:p-6"
+                  >
                     <a href="#">
-                      <h3 className="mt-0.5 text-lg font-medium text-gray-900">
-                        How to center an element using JavaScript and jQuery
+                      <h3 className="mt-0.5 text-7xl text-gray-900 text-center tracking-wider">
+                        V
                       </h3>
+                      <h4 className=" text-xl">Value</h4>
                     </a>
-                    <div className="mt-4 flex flex-wrap gap-1">
-                      <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-                        Snippet
-                      </span>
-                      <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-                        JavaScript
-                      </span>
-                    </div>
+                  </div>
+                </article>
+                <article className="animate-background rounded-xl ml-20 bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
+                  <div
+                    className="rounded-[10px] bg-white hover:bg-slate-100
+                   text-center sm:p-6"
+                  >
+                    <a href="#">
+                      <h3 className="mt-0.5 text-7xl text-gray-900 text-center tracking-wider">
+                        S
+                      </h3>
+                      <h4 className=" text-xl">Science</h4>
+                    </a>
+                  </div>
+                </article>
+                <article className="animate-background rounded-xl ml-20 bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
+                  <div
+                    className="rounded-[10px] bg-white hover:bg-slate-100
+                   text-center sm:p-6"
+                  >
+                    <a href="#">
+                      <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
+                        T
+                      </h3>
+                      <h4 className=" text-xl">Technology</h4>
+                    </a>
+                  </div>
+                </article>
+                <article className="animate-background rounded-xl ml-20 bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
+                  <div
+                    className="rounded-[10px] bg-white hover:bg-slate-100
+                   text-center sm:p-6"
+                  >
+                    <a href="#">
+                      <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
+                        E
+                      </h3>
+                      <h4 className=" text-xl">Engineering</h4>
+                    </a>
+                  </div>
+                </article>
+                <article className="animate-background rounded-xl ml-20 bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
+                  <div
+                    className="rounded-[10px] bg-white hover:bg-slate-100
+                   text-center sm:p-6"
+                  >
+                    <a href="#">
+                      <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
+                        A
+                      </h3>
+                      <h4 className=" text-xl">Art </h4>
+                    </a>
+                  </div>
+                </article>
+                <article className="animate-background rounded-xl ml-20 bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
+                  <div
+                    className="rounded-[10px] bg-white hover:bg-slate-100
+                   text-center sm:p-6"
+                  >
+                    <a href="#">
+                      <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
+                        M
+                      </h3>
+                      <h4 className=" text-xl">Math</h4>
+                    </a>
                   </div>
                 </article>
               </>
@@ -149,3 +194,11 @@ function Curriculum() {
     </div>
   );
 }
+
+<a
+  class="group/edit invisible hover:bg-slate-200 group-hover/item:visible ..."
+  href="tel:{person.phone}"
+>
+  <span class="group-hover/edit:text-gray-700 ...">Call</span>
+  <svg class="group-hover/edit:translate-x-0.5 group-hover/edit:text-slate-500 ..."></svg>
+</a>;
