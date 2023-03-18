@@ -13,14 +13,14 @@ function Vision() {
         <div className="relative flex">
           <div className="h-72 w-full bg-[#001845] pattern">
             {" "}
-            <div className=" w-auto pt-16 pl-10 flex flex-row items-center align-middle">
+            <div className=" w-auto pt-16 pl-10 flex lg:flex-row items-center align-middle sm:flex-row">
               <>
                 <article className="animate-background  rounded-xl bg-gradient-to-r from-black via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm w-48">
                   <div
                     className="rounded-[10px] bg-white hover:bg-slate-100
                    text-center sm:p-6"
                   >
-                    <a href="#">
+                    <a>
                       <h3 className="mt-0.5 text-7xl text-gray-900 text-center tracking-wider">
                         V
                       </h3>
@@ -33,7 +33,7 @@ function Vision() {
                     className="rounded-[10px] bg-white hover:bg-slate-100
                    text-center sm:p-6"
                   >
-                    <a href="#">
+                    <a>
                       <h3 className="mt-0.5 text-7xl text-gray-900 text-center tracking-wider">
                         S
                       </h3>
@@ -46,7 +46,7 @@ function Vision() {
                     className="rounded-[10px] bg-white hover:bg-slate-100
                    text-center sm:p-6"
                   >
-                    <a href="#">
+                    <a>
                       <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
                         T
                       </h3>
@@ -59,7 +59,7 @@ function Vision() {
                     className="rounded-[10px] bg-white hover:bg-slate-100
                    text-center sm:p-6"
                   >
-                    <a href="#">
+                    <a>
                       <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
                         E
                       </h3>
@@ -72,7 +72,7 @@ function Vision() {
                     className="rounded-[10px] bg-white hover:bg-slate-100
                    text-center sm:p-6"
                   >
-                    <a href="#">
+                    <a>
                       <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
                         A
                       </h3>
@@ -85,7 +85,7 @@ function Vision() {
                     className="rounded-[10px] bg-white hover:bg-slate-100
                    text-center sm:p-6"
                   >
-                    <a href="#">
+                    <a>
                       <h3 className="mt-0.5 p-0 text-7xl text-gray-900 text-center tracking-wider">
                         M
                       </h3>
