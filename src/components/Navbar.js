@@ -1,10 +1,69 @@
-import logo from "./EmbeddedImage (1).png";
+// import logo from "./EmbeddedImage (1).png";
 import NavbarTest from "../NavbarTest";
-function Navbar() {
-  return <NavbarTest />;
-}
+
+import React, { useState } from "react";
+import ezythree_logo from "./EmbeddedImage (1).png";
+import { TiThMenu } from "react-icons/ti";
+const Navbar = () => {
+  const [active, setActive] = useState(false);
+  const arrayMenu = ["Support", "About", "Log In"];
+
+  const NavbarItem = ({ title }) => (
+    <li
+      className={`hover:text-blue-500
+  cursor-pointer transition-colors duration-300 font-semibold  text-lg }`}
+    >
+      {title}
+    </li>
+  );
+
+  return (
+    <nav className="py-2 2xl:py-3 bg-slate-50/70 backdrop-blur-md shadow-md w-full md:px-10 px-5 fixed top-0 left-0 right-0 z-10 duration-300 transition-all">
+      <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
+        <div className="flex items-center justify-between md:block">
+          <div className="flex items-center">
+            <a
+              className="text-2xl font-bold transition-colors duration-200 transform  lg:text-3xl hover:text-gray-700 "
+              href="/"
+            >
+              <div className="flex items-center font-normal">
+                <img src={ezythree_logo} alt="logo" className=" h-12" />
+              </div>
+            </a>
+          </div>
+          <div className="md:hidden">
+            <TiThMenu
+              fontSize={29}
+              className=" text-gray-600 md:hidden cursor-pointer"
+              onClick={() => setActive(!active)}
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              active ? "block" : "hidden"
+            }`}
+          >
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-gray-600">
+              {arrayMenu.map((item, index) => (
+                <NavbarItem title={item} />
+              ))}
+              <li className="w-full px-4 py-2 text-sm font-bold tracking-wider text-white transition-colors duration-200 transform bg-[#1279C3] rounded-full lg:w-auto hover:bg-gray-700 text-center">
+                Start Now
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
 export default Navbar;
-<section className=" bg-white w-screen top-0">
+
+{
+  /* <section className=" bg-white w-screen top-0">
   <header
     aria-label="Site Header"
     className="bg-white container px-6 py-4 mx-auto md:flex md:justify-between md:items-center w-full border-hidden"
@@ -117,4 +176,5 @@ export default Navbar;
       </div>
     </div>
   </header>
-</section>;
+</section>; */
+}
