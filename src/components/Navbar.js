@@ -6,14 +6,14 @@ import ezythree_logo from "./EmbeddedImage (1).png";
 import { TiThMenu } from "react-icons/ti";
 const Navbar = () => {
   const [active, setActive] = useState(false);
-  const arrayMenu = ["Support", "About", "Log In"];
+  const arrayMenu = ["About", "Blog", "Academics"];
 
-  const NavbarItem = ({ title }) => (
+  const NavbarItem = ({ title, link }) => (
     <li
       className={`hover:text-blue-500
   cursor-pointer transition-colors duration-300 font-semibold  text-lg }`}
     >
-      {title}
+      <a href={link}>{title}</a>
     </li>
   );
 
@@ -47,10 +47,17 @@ const Navbar = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-gray-600">
               {arrayMenu.map((item, index) => (
-                <NavbarItem title={item} />
+                <NavbarItem
+                  title={item}
+                  link={`/${item.toLowerCase()}`}
+                  key={index}
+                />
               ))}
-              <li className="w-full px-4 py-2 text-sm font-bold tracking-wider text-white transition-colors duration-200 transform bg-[#1279C3] rounded-full lg:w-auto hover:bg-gray-700 text-center">
-                Start Now
+              <li
+                href="/enroll"
+                className="w-full px-4 py-2 text-sm font-bold tracking-wider text-white transition-colors duration-200 transform bg-[#1279C3] rounded-full lg:w-auto hover:bg-gray-700 text-center cursor-pointer"
+              >
+                ENROLL
               </li>
             </ul>
           </div>
