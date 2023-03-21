@@ -5,7 +5,7 @@ function Kickstart() {
     <section>
       <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8 items-center justify-center">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div className="bg-blue-600 p-8 md:p-12 lg:px-16 lg:py-24 my-auto">
+          <div className="bg-[#0e82bd] p-8 md:p-12 lg:px-16 lg:py-24 my-auto">
             <div className="mx-auto max-w-xl text-center">
               <h2 className="text-2xl font-bold text-white md:text-3xl">
                 Kickstart your journey now!
