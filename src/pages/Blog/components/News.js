@@ -8,7 +8,7 @@ function News() {
   return (
     <section>
       <section className="bg-white ">
-        <div className="container px-6 py-10 mx-auto">
+        <div className="container px-6 py-10 mx-auto pt-20">
           <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl ">
             Quick News
           </h1>

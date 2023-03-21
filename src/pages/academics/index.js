@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import HeroSecond from "./components/HeroSecond";
 import Belower from "./components/Belower";
 import Organization from "./components/Organization";
+import Another from "./components/Another";
 
 function AcademicsPage() {
   return (
@@ -12,7 +13,6 @@ function AcademicsPage() {
       <Hero />
       <HeroSecond />
       <Extracurriculars />
-      {/* <Organization /> */}
       <Belower />
     </div>
   );

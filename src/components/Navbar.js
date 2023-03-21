@@ -10,24 +10,24 @@ const Navbar = () => {
 
   const NavbarItem = ({ title, link }) => (
     <li
-      className={`hover:text-blue-500
-  cursor-pointer transition-colors duration-300 font-semibold  text-lg }`}
+      className={` hover:text-gray-400
+  cursor-pointer transition-colors duration-300  text-xl font-Bebas  font-light}`}
     >
-      <a href={link}>{title}</a>
+      <a href={link}>{title} </a>
     </li>
   );
 
   return (
-    <nav className="py-2 2xl:py-3 bg-slate-50/70 backdrop-blur-md shadow-md w-full md:px-10 px-5 fixed top-0 left-0 right-0 z-10 duration-300 transition-all">
+    <nav className=" py-0.5 2xl:py-3 bg-white backdrop-blur-md shadow-md w-full md:px-10 px-5 top-0 left-0 right-0 z-10 duration-300 transition-all fixed font-Bebas tracking-widest text-white text-3xl">
       <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
         <div className="flex items-center justify-between md:block">
-          <div className="flex items-center">
+          <div className="flex items-left pl-0">
             <a
               className="text-2xl font-bold transition-colors duration-200 transform  lg:text-3xl hover:text-gray-700 "
               href="/"
             >
               <div className="flex items-center font-normal">
-                <img src={ezythree_logo} alt="logo" className=" h-12" />
+                <img src={ezythree_logo} alt="logo" className=" h-11" />
               </div>
             </a>
           </div>
@@ -45,20 +45,21 @@ const Navbar = () => {
               active ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-gray-600">
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-[#0e82bd] text-2xl ">
               {arrayMenu.map((item, index) => (
                 <NavbarItem
                   title={item}
                   link={`/${item.toLowerCase()}`}
                   key={index}
+                  className="font-Bebas"
                 />
               ))}
-              <li
+              <a
                 href="/enroll"
-                className="w-full px-4 py-2 text-sm font-bold tracking-wider text-white transition-colors duration-200 transform bg-[#1279C3] rounded-full lg:w-auto hover:bg-gray-700 text-center cursor-pointer"
+                className="w-full px-4 py-2 sm:mt-10 text-lg tracking-widest font-light justify-self-center text-white transition-colors duration-200 transform bg-[#1279C3] rounded-lg lg:w-auto hover:bg-gray-700 text-center cursor-pointer"
               >
                 ENROLL
-              </li>
+              </a>
             </ul>
           </div>
         </div>

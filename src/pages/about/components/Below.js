@@ -3,7 +3,7 @@ import vision from "./images/vision.png";
 function Below() {
   return (
     <div
-      className="text-center tracking-wider font-medium text-white text-6xl bg-scroll bg-center bg-[length:200px_100px]"
+      className="text-center tracking-wider font-medium text-white lg:text-6xl sm:text-lg bg-scroll bg-center bg-[length:200px_100px]"
       style={{
         backgroundImage: `url(${Grid})`,
       }}

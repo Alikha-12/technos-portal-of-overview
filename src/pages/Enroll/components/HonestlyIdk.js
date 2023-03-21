@@ -14,14 +14,7 @@ function Idk() {
                 ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
                 quisque ut interdum tincidunt duis.
               </p>
-              <div className="mt-4 md:mt-8">
-                <a
-                  href="#"
-                  className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
-                >
-                  Get Started Today
-                </a>
-              </div>
+              <div className="mt-4 md:mt-8"></div>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">

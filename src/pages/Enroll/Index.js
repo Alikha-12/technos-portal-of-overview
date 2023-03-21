@@ -10,7 +10,6 @@ function EnrollPage() {
     <div>
       <Hero />
       <Idk />
-      <Contact />
     </div>
   );
 }
