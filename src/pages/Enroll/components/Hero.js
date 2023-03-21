@@ -21,14 +21,7 @@ const Hero = () => {
             We'll guide them trought their spiritual and journey to make the
             most of themselves.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4 text-center">
-            <a
-              href="https://api.whatsapp.com/send/?phone=%2B6285733612072&text=%EF%BF%BD%D8%A7%DA%BE%D9%84%D8%A7+%D9%88+%D8%B3%DA%BE%D9%84%D8%A7%0A%0ASMP+Techno+Insan+Kamil+Tuban%0A%0A%EF%BF%BD+Cendekiawan+Muslim+Berbasis+Teknology+dan+Berbudaya+Lingkungan%0A%0A%EF%BF%BD+Silahkan+saget+ditulis+untuk+identitas+Ananda%3A%0A%EF%BF%BD+Nama+Calon+Santri+%3A%0A%EF%BF%BD+TTL+%3A%0A%EF%BF%BD+Asal+SD+%3A%0A%EF%BF%BD+Alamat+%3A%0A%EF%BF%BD+Nama+Orang+Tua+%3A%0A%EF%BF%BD+No.+Hp+Orang+Tua+%3A%0A%0A%EF%BF%BD+Persyaratan+yang+harus+dipenuhi%0A%EF%BF%BD+Formulir+pendaftaran+Rp250.000%2C00%0A%EF%BF%BD+FC+Akta+Kelahiran+2+lbr%0A%EF%BF%BD+FC+Kartu+Keluarga+2+lbr%0A%EF%BF%BD+FC+raport+SD+kelas+5+yang+telah+dilegalisir%0A%EF%BF%BD+Pas+Foto+3x4+berwarna+4+lbr%0A%EF%BF%BD+FC+KIP+%28Jika+punya%29%0A%0A%EF%BF%BD+Terimakasih&type=phone_number&app_absent=0"
-              className="block w-full rounded bg-[#0e82bd] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#A6ADBB] focus:outline-none focus:ring active:bg-[#A6ADBB] sm:w-auto"
-            >
-              Talk with us
-            </a>
-          </div>
+          <div className="mt-8 flex flex-wrap gap-4 text-center"></div>
         </div>
       </div>
     </section>

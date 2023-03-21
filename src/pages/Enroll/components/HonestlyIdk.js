@@ -1,4 +1,5 @@
 import Proud from "./image/proud.jpeg";
+import Robot from "./image/Robotic.jpg";
 function Idk() {
   return (
     <section className="bg-white">
@@ -35,7 +36,7 @@ function Idk() {
             />
             <img
               alt="Student"
-              src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              src={Robot}
               className="h-40 w-full object-cover sm:h-56 md:h-full"
             />
           </div>

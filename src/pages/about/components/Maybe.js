@@ -16,45 +16,27 @@ function Maybe() {
               </h2>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 text-center">
-              <a
-                className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-                href="/services/digital-campaigns"
-              >
+              <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white">
                 <h2 className="mt-4 text-6xl font-bold text-gray-900 ">V</h2>
                 <p className="mt-1 text-2xl text-gray-500">Value</p>
               </a>
-              <a
-                className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-                href="/services/digital-campaigns"
-              >
+              <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white">
                 <h2 className="mt-4  font-bold text-gray-900 text-6xl">S</h2>
                 <p className="mt-1 text-2xl text-gray-500">Science</p>
               </a>
-              <a
-                className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-                href="/services/digital-campaigns"
-              >
+              <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white">
                 <h2 className="mt-4 font-bold text-gray-900 text-6xl">T</h2>
                 <p className="mt-1 text-2xl text-gray-500">Technology</p>
               </a>
-              <a
-                className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-                href="/services/digital-campaigns"
-              >
+              <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white">
                 <h2 className="mt-4 text-6xl font-bold text-gray-900">E</h2>
                 <p className="mt-1 text-2xl text-gray-500">Engineering</p>
               </a>
-              <a
-                className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-                href="/services/digital-campaigns"
-              >
+              <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white">
                 <h2 className="mt-4 font-bold text-gray-900 text-6xl">A</h2>
                 <p className="mt-1 text-2xl text-gray-500">Art</p>
               </a>
-              <a
-                className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-                href="/services/digital-campaigns"
-              >
+              <a className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white">
                 <h2 className="mt-4 text-6xl font-bold text-gray-900">M</h2>
                 <p className="mt-1 text-2xl text-gray-500">Math</p>
               </a>
