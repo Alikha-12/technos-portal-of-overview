@@ -4,13 +4,13 @@ function Hero() {
   return (
     <section>
       <div
-        className=" bg-cover text-center font-Bebas pt-64 tracking-wider font-medium text-whitez text-6xl bg-scroll bg-center"
+        className=" bg-cover text-center font-Bebas pt-64 tracking-wider font-medium text-white bg-scroll bg-center"
         style={{
           backgroundImage: `url(${frontview})`,
         }}
       >
         {" "}
-        <h1 className=" text-white text-opacity-95 lg:text-6xl pt-80 text-right bg-scroll pr-5 pb-80 sm:text-xl md:text-4xl">
+        <h1 className=" text-white text-opacity-95 lg:text-6xl text-5xl pt-80 text-right bg-scroll pr-5 pb-80 ">
           We are <a className="underline underline-offset-4"> tech-based</a>{" "}
           <br />
           <a className="underline underline-offset-4">

@@ -13,8 +13,8 @@ function PageNotFound() {
         </p>
         <p className="mt-4 text-gray-500">We can't find that page.</p>
         <a
-          href="#"
-          className="inline-block px-5 py-3 mt-6 text-sm font-medium text-white bg-indigo-600 rounded hover:bg-indigo-700 focus:outline-none focus:ring"
+          href="/"
+          className="inline-block px-5 py-3 mt-6 text-sm font-medium text-white bg-[#0e82bd] rounded hover:bg-sky-900 focus:outline-none focus:ring"
         >
           Go Back Home
         </a>

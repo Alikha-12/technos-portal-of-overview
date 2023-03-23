@@ -24,64 +24,78 @@ function Extracurriculars() {
             <Extracurricular
               name="IT"
               description={
-                "Students pursue their passion in Technology with creativity"
+                "Offering a dynamic and challenging experience for students passionated with computer science and technology."
               }
               children={<FaLaptopCode className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Volley"
-              description={"Students build teamwork skill while playing volley"}
+              description={
+                "Provides opportunities for students to develop their coordination, teamwork, and sportsmanship."
+              }
               children={
                 <FaVolleyballBall className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="Rebana"
-              description={"Students play traditional instrument"}
+              description={
+                "Provides opportunities for students to learn and perform traditional drumming and percussion music."
+              }
               children={
                 <GiMusicalNotes className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="Journalistic"
-              description={"Students write like journalist"}
+              description={
+                "Offering opportunities for students to develop their writing and reporting skills, explore different forms of media."
+              }
               children={<IoMdJournal className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Theatre"
               description={
-                "Feeding our students' creativity with drama trough theatre"
+                "Provides opportunities for students to explore the world of acting, stagecraft, and performance."
               }
               children={<MdCameraRoll className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="PABRASMADA"
-              description={"Students learns to march"}
+              description={
+                "Provide students with an opportunity to develop their discipline, leadership skills and patriotism."
+              }
               children={
                 <BsFillFlagFill className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="Broadcasting"
-              description={"Students will pre-record for Suara Muslim radio"}
+              description={
+                "Provide opportunities for students to develop their communication skills, and gain hands-on experience in radio broadcasting."
+              }
               children={<VscBroadcast className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="MIPA"
-              description={"Students will learn Math & Science"}
+              description={
+                "Provide opportunities for students to explore and expand their understanding of these fields outside of the traditional classroom setting. "
+              }
               children={
                 <GiMaterialsScience className=" text-[#0e82bd] w-40 h-40" />
               }
             />
             <Extracurricular
               name="KTI"
-              description={"Students will write a research"}
+              description={
+                "Students can learn about the scientific method, which is a systematic approach to conducting research and collecting data."
+              }
               children={<ImNewspaper className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Basket"
               description={
-                "Pushing students' teamwork and strategy trought basket"
+                "Provide opportunities for students to develop their skills, teamwork, and leadership abilities in the sport of basketball."
               }
               children={
                 <RiBasketballFill className=" text-[#0e82bd] w-40 h-40" />
@@ -90,13 +104,15 @@ function Extracurriculars() {
             <Extracurricular
               name="Karate"
               description={
-                "Students will learn and build their stamina while learning the art of self defense"
+                "Helping students to develop their physical fitness, discipline, focus, and self-defense skills."
               }
               children={<TbKarate className=" text-[#0e82bd] w-40 h-40" />}
             />
             <Extracurricular
               name="Futsal"
-              description={"A team of students will play football indoor"}
+              description={
+                "Providing a fun, challenging, and rewarding experience for students who are passionate about soccer"
+              }
               children={<FaFutbol className=" text-[#0e82bd] w-40 h-40" />}
             />
           </div>
