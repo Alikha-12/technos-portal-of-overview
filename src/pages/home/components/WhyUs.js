@@ -17,10 +17,7 @@ function WhyUs() {
             alt=""
           />
           <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
-            <a
-              href="#"
-              className="block mt-4 text-2xl font-semibold text-[#0e82bd] hover:drop-shadow-sm sm:text-2xl md:text-4xl"
-            >
+            <a className="block mt-4 text-2xl font-semibold text-[#0e82bd] hover:drop-shadow-sm sm:text-2xl md:text-4xl">
               Everything you need to be well-rounded
             </a>
             <p className="mt-3 text-sm text-[#46bcf1] md:text-xl">

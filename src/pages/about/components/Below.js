@@ -8,11 +8,11 @@ function Below() {
         backgroundImage: `url(${Grid})`,
       }}
     >
-      <h1 className=" text-center align-middle p-10">
+      <h1 className=" text-center align-middle p-10 leading-normal">
         {" "}
-        We are encouraging our <br />
-        students to make the <br />
-        most of themselves
+        Growing in Faith,
+        <br /> Innovating for the Future,
+        <br /> Caring for the Planet.
       </h1>
     </div>
   );

@@ -14,21 +14,21 @@ function Benefits() {
             img={Competitive}
             skill="Competitive"
             description={
-              "This world is full of competition, here we prepare our students to be competitive"
+              "Competitiveness can help them develop important skills and attributes that are beneficial for their personal and professional growth."
             }
           />
           <Benefit
             img={Leadership}
             skill="Leadership"
             description={
-              "This world is full of competition, here we prepare our students to be competitive"
+              "Leadership is important because it can help organizations and individuals to achieve their goals, push the boundaries, and achieve success."
             }
           />
           <Benefit
             img={Thinking}
             skill="Thinking"
             description={
-              "Technology plays a big role in our curriculum to teach student to think more critically"
+              "Allowing individuals to solve problems, make informed decisions, generate new ideas, and communicate effectively."
             }
           />
         </div>
