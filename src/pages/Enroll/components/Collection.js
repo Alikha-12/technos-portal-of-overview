@@ -25,7 +25,7 @@ function Collection() {
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl ">
             <img
-              classname="object-cover w-full rounded-xl "
+              className="object-cover w-full rounded-xl aspect-square"
               src={principal}
               alt=""
             />
@@ -43,9 +43,7 @@ function Collection() {
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize ">
               Alfi Rizki
             </h1>
-            <p className="mt-2 text-gray-500 capitalize ">
-              Enrollment administrator
-            </p>
+            <p className="mt-2 text-gray-500 capitalize ">Guidence Conselor</p>
           </div>
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl ">
             <img
@@ -56,9 +54,7 @@ function Collection() {
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize ">
               Riza Kusumawati
             </h1>
-            <p className="mt-2 text-gray-500 capitalize ">
-              Enrollment administrator
-            </p>
+            <p className="mt-2 text-gray-500 capitalize ">Admission Officer</p>
           </div>
         </div>
       </div>
