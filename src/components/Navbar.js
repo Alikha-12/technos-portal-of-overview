@@ -54,12 +54,14 @@ const Navbar = () => {
                   className="font-Bebas"
                 />
               ))}
-              <a
-                href="/enroll"
-                className="w-full px-4 py-2 sm:mt-10 text-lg tracking-widest font-light justify-self-center text-white transition-colors duration-200 transform bg-[#1279C3] rounded-lg lg:w-auto hover:bg-gray-700 text-center cursor-pointer"
-              >
-                ENROLL
-              </a>
+              <button>
+                <a
+                  href="/enroll"
+                  className="w-full px-4 py-2 sm:mt-10 text-lg tracking-widest font-light justify-self-center text-white transition-colors duration-200 transform bg-[#1279C3] rounded-lg lg:w-auto hover:bg-gray-700 text-center cursor-pointer"
+                >
+                  ENROLL
+                </a>
+              </button>
             </ul>
           </div>
         </div>
