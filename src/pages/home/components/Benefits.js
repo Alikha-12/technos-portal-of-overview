@@ -1,5 +1,5 @@
-import Competitive from "./images/undraw_drone_race.svg";
-import Leadership from "./images/undraw_revenue.svg";
+import Plant from "./images/undraw_environment.svg";
+import Studying from "./images/undraw_studying.svg";
 import Thinking from "./images/undraw_code_inspection.svg";
 
 function Benefits() {
@@ -7,28 +7,28 @@ function Benefits() {
     <section className="bg-[#0e82bd]">
       <div className="container px-6 py-10 mx-auto md:content-center">
         <h1 className="text-3xl font-semibold text-center font-Bebas tracking-[0.25rem] capitalize lg:text-4xl text-white">
-          Benefits
+          About Us
         </h1>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
           <Benefit
-            img={Competitive}
-            skill="Competitive"
+            img={Studying}
+            skill="Cendekiawan Muslim"
             description={
-              "Competitiveness can help them develop important skills and attributes that are beneficial for their personal and professional growth."
-            }
-          />
-          <Benefit
-            img={Leadership}
-            skill="Leadership"
-            description={
-              "Leadership is important because it can help organizations and individuals to achieve their goals, push the boundaries, and achieve success."
+              "Berpihak pada kebenaran yang bersumber dari Alloh SWT dan bertanggung jawab terhadap semua aktivitas yang dilakukan"
             }
           />
           <Benefit
             img={Thinking}
-            skill="Thinking"
+            skill="Berbasis Teknologi"
             description={
-              "Allowing individuals to solve problems, make informed decisions, generate new ideas, and communicate effectively."
+              "Menguasai Lifes Skills dan Sikap Kompetetif di era global dan menghasikan produk teknologi"
+            }
+          />
+          <Benefit
+            img={Plant}
+            skill="Berbudaya Lingkungan"
+            description={
+              "Mengelola dan menghemat dalam pemanfaatkan sumber daya alam dan berpartisipasi aktif dalam isu-isu cinta lingkungan "
             }
           />
         </div>
