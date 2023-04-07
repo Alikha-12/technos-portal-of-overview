@@ -18,7 +18,8 @@ function Idk() {
                 {/* Hover */}
                 <a
                   className="group relative inline-block focus:outline-none focus:ring"
-                  href="https://api.whatsapp.com/send/?phone=%2B6285733612072&text=%EF%BF%BD%D8%A7%DA%BE%D9%84%D8%A7+%D9%88+%D8%B3%DA%BE%D9%84%D8%A7%0A%0ASMP+Techno+Insan+Kamil+Tuban%0A%0A%EF%BF%BD+Cendekiawan+Muslim+Berbasis+Teknology+dan+Berbudaya+Lingkungan%0A%0A%EF%BF%BD+Silahkan+saget+ditulis+untuk+identitas+Ananda%3A%0A%EF%BF%BD+Nama+Calon+Santri+%3A%0A%EF%BF%BD+TTL+%3A%0A%EF%BF%BD+Asal+SD+%3A%0A%EF%BF%BD+Alamat+%3A%0A%EF%BF%BD+Nama+Orang+Tua+%3A%0A%EF%BF%BD+No.+Hp+Orang+Tua+%3A%0A%0A%EF%BF%BD+Persyaratan+yang+harus+dipenuhi%0A%EF%BF%BD+Formulir+pendaftaran+Rp250.000%2C00%0A%EF%BF%BD+FC+Akta+Kelahiran+2+lbr%0A%EF%BF%BD+FC+Kartu+Keluarga+2+lbr%0A%EF%BF%BD+FC+raport+SD+kelas+5+yang+telah+dilegalisir%0A%EF%BF%BD+Pas+Foto+3x4+berwarna+4+lbr%0A%EF%BF%BD+FC+KIP+%28Jika+punya%29%0A%0A%EF%BF%BD+Terimakasih&type=phone_number&app_absent=0"
+                  href="https://wa.me/6285852339448
+                  "
                 >
                   <span className="absolute inset-0 translate-x-0 translate-y-0 bg-white transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5" />
                   <span className="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-[#0e82bd]">
